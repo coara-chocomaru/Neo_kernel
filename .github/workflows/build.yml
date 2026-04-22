@@ -32,7 +32,7 @@ env:
 jobs:
   build-kernel:
     name: Kernel Build - ARM64 (a05bd_defconfig)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     permissions:
       contents: write
     steps:
